@@ -1,0 +1,26 @@
+*{margin:0px;padding:0px; box-sizing: border-box; font-family:'Russo One', sans-serif;text-decoration:none;}
+.header{width:100%; background-color:whitesmoke; display: flex; flex-wrap: nowrap; justify-content: space-between;align-items: center;}
+.header__titulo-nombre{width: 100px; padding-left: 5%;}
+.header__items{width: 50%; text-align: right; padding-right: 2%;}
+.header__items-enlace{margin: 0% 2%; font-size:1.2em;color:navy}
+.header__items-facebook{color:navy; font-size: 1.5em;}
+.header__items-instagram{color:coral; font-size: 1.5em;}
+.header__items-whatsapp{color:chartreuse; font-size: 1.5em;}
+.post__img{width:100%; height: 300px; margin-bottom: 3%;}
+.categorias{text-align:center;padding:1%; background-color: whitesmoke;}
+.categorias__titulo{font-size:2em; user-select: none; margin-bottom:1%;}
+.categorias__nombres{width:100%; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.categorias__nombres-enlaces{width:33%; padding:1%; color: black; font-size: 1.3em; }
+.categorias__nombres-enlaces:hover{background-color: cornflowerblue; text-decoration:none; color:black;}
+.contenido__carousel{width: 100%;padding: 8% 0%; display: flex; justify-content: center;}
+.carousel__img{ height: 550px;}
+.productos{text-align:center;}
+.productos__titulo{padding: 5% ;}
+.fichas{width: 100%; display:flex; flex-wrap:wrap; justify-content: space-around;}
+.card{ margin:2%; }
+.pagos{background-color: whitesmoke; padding: 5% 0%; text-align: center;}
+.metodos__pago{width: 100%; text-align: center;}
+.pagos__img{width: 100%; padding:5% 0%; display: flex; flex-wrap: wrap; justify-content:space-evenly; align-items: center;}
+.pagos__img-bancos{width: 10%; height: 20%;}
+.metodos__pago-texto{width: 100%; text-align: center; font-size: 1.2em;}
+.pagos__img-banco{width: 50%;}
